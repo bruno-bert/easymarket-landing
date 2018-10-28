@@ -7,8 +7,8 @@ public_folder: "uploads"
 
 collections: 
   - name: "menu"
-     label: "Menu"     
-     create: true     
-     fields: 
-      - { label: "Name", name: "name", widget: "string", required: "true" }
-      - { label: "Url", name: "url", widget: "string" }
+    label: "Menu"     
+    create: true     
+    fields: 
+     - { label: "Name", name: "name", widget: "string", required: "true" }
+     - { label: "Url", name: "url", widget: "string" }
