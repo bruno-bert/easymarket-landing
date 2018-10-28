@@ -2,17 +2,10 @@ backend:
    name: git-gateway
    branch: master 
 
-   media_folder: "static/uploads"
-   public_folder: "uploads"
-
-
-   collections: 
-   - name: "coding"
-     label: "Coding"
-     folder: "coding"
-     create: true
-     slug: "{{year}}-{{slug}}"
+   menu: 
+   - name: "menu"
+     label: "Menu"     
+     create: true     
      fields: 
-      - { label: "Title", name: "title", widget: "string", required: "true" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Name", name: "name", widget: "string", required: "true" }
+      - { label: "Url", name: "url", widget: "string" }
