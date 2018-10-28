@@ -47,9 +47,6 @@ theme = "airspace-hugo"
 # The site's parameters
 [params]
 
-  # If you want to remove the copyright text you need a Themefisher license.
-  # This license is offered with a 50% discount for all Hugo users.
-  # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
   date_format = "6 January 2006"
 
